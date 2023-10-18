@@ -5,7 +5,7 @@ function App() {
 
     <div className="App">
       <header>
-      <link rel="icon" href="%PUBLIC_URL%/favicon.ico" type="favicon" />
+      <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
         <Home/>
 
       </header>

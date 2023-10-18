@@ -50,7 +50,7 @@ const Weather = () => {
 
   return (
     <div className="body">
-      <h1>ForecastSasa</h1>
+      <h1>ClimateSasa</h1>
       <div className="weather-container">
         <div className="image-container">
           <img src="/Images/sunset.jpg" alt="sunset Image" className="background-image" />
@@ -114,3 +114,4 @@ const Weather = () => {
 };
 
 export default Weather;
+
