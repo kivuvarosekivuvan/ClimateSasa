@@ -12,7 +12,7 @@ Instantly check the local time ensuring you stay informed about the current time
 With its minimalist and intuitive design, ClimateSasa offers a seamless user experience, making it effortless to search for weather information and access the results.
 
 # Deployed Link
-
+https://climate-sasa-o6f8kxzex-kivuvarosekivuvan.vercel.app/
 
 
 # Getting Started
