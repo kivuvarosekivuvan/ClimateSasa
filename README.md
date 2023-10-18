@@ -1,5 +1,5 @@
 # ClimateSasa
-ClimateSasa is a simple and authentic weather application that allows users to search for weather information and provides local time capabilities.
+ClimateSasa is a simple weather application that allows users to search for weather information and provides local time capabilities.
 
 # Features
 ### Weather Search: 
