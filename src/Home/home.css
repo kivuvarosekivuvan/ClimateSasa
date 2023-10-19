@@ -199,13 +199,17 @@
 }
 
 
-/* samsung galaxy A51/71 */
+/* likes of samsung galaxy A51/71 */
 @media screen and (max-width: 768px) {
+  .body{
+    margin: 0;
+    padding: 0;
+  }
   .image-container{
-    margin-left: 320px;
+    margin-left: 200px;
   }
   .background-image{
-    width: 40vh;
+    width: 50vh;
     height: 70vh;
   }
   .overlay-image{
@@ -220,21 +224,22 @@
     margin-right: 200px;
   }
   .catchy-words{
-    margin-left: -400px;
+    margin-left: -420px;
     width: 70%;
-    margin-top: 170px;
+    margin-top: 230px;
   }
   .catchy-words h2{
     font-size: 25px;
+    width: 130%;
   }
   .timedate{
-    margin-top: 90px;
+    margin-top: 40px;
   margin-left: 550px;
   width: 55%;
   font-weight: 700;
   }
 .search{
-  margin-left: -145px;
+  margin-left: -200px;
 }
 .input{
   padding: 10px 20px;
@@ -252,6 +257,9 @@
 }
 .weather-icon{
   margin-right: 200px;
+}
+.form{
+  margin-left: 290px;
 }
   
 }
@@ -324,5 +332,71 @@
     margin-top: -70px;
   margin-left: 650px;
   width: 55%;
+  }
+}
+
+
+
+@media screen and (max-width: 280px) and (max-height: 653px) {
+  .background-image{
+    width: 60vh;
+    height: 70vh;
+  }
+  .overlay-image{
+    width: 40vh;
+    height: 50vh;
+  }
+  .catchy-words{
+    margin-left: -350px;
+    margin-top: 380px;
+
+  }
+  .timedate{
+  margin-left: 550px;
+  }
+  .image-container{
+    margin-left: 250px;
+  }
+  .weather-item.rectangle2 {
+    margin-top: 50px;
+  }
+  .weather-item.rectangle4 {
+    margin-top: 50px;
+  }
+  .form{
+    margin-left: 250px;
+    margin-top: 50px;
+  }
+  .weather-icon{
+    margin-left: -50px;
+  }
+}
+
+@media screen and (max-width: 360px) and (max-height: 740px) {
+  .image-container{
+    margin-left: 250px;
+  } 
+  .background-image{
+    width: 60vh;
+    height: 70vh;
+  }
+  .overlay-image{
+    width: 40vh;
+    height: 50vh;
+  }
+  .catchy-words{
+    margin-left: -405px;
+    margin-top: 380px;
+
+  }
+  .form{
+    margin-left: 330px;
+    margin-top: 50px;
+  }
+  .weather-item.rectangle2 {
+    margin-top: 50px;
+  }
+  .weather-item.rectangle4 {
+    margin-top: 50px;
   }
 }
